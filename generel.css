@@ -12,7 +12,6 @@ body {
   margin: 0;
 }
 
-/* Header og menu */
 header {
   background-color: #e18dd5;
   padding: 1rem 0;
@@ -39,14 +38,12 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Main wrapper (giver luft rundt om "panelet") */
 main {
   padding: 0;
   padding-bottom: 0;
   background-color: white;
 }
 
-/* Selve "wireframe-kassen" */
 .panel {
   background-color: rgb(205, 165, 202);
   border-radius: 0;
@@ -54,7 +51,6 @@ main {
   min-height: 100%;
 }
 
-/* Typografi */
 h1,
 h2,
 h3 {
@@ -68,7 +64,6 @@ p {
   font-size: 1.05rem;
 }
 
-/* Billeder */
 img {
   display: block;
   width: 100%;
@@ -76,7 +71,6 @@ img {
   border-radius: 12px;
 }
 
-/* Call to action */
 .cta {
   display: inline-block;
   background-color: #b663a9;
@@ -92,17 +86,14 @@ img {
   color: #333;
 }
 
-/* HERO: billedet til højre */
 .hero img {
   justify-self: end;
 }
 
-/* STATS: mere læsbar tekst */
 .stats .stats_text p {
   max-width: 65ch;
 }
 
-/* Stats-bokse (wireframe-look) */
 .stats ul {
   list-style: none;
   padding: 0;
@@ -130,7 +121,6 @@ img {
   font-size: 1.05rem;
 }
 
-/* Footer */
 footer {
   background-color: #e18dd5;
   color: white;
@@ -179,16 +169,14 @@ main {
   padding: 0 1.5rem;
 }
 
-/* lys "kant" udenom indholdet */
 main {
-  background: #f6f6f6; /* hvid/lys kant */
-  padding: 0; /* luft over/under */
+  background: #f6f6f6;
+  padding: 0;
 }
 
-/* gør panelet til en centreret kasse (ikke fuld bredde) */
 .panel {
-  max-width: 1200px; /* samme som container eller lidt større */
-  margin: 0 auto; /* centrer */
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: rgb(205, 165, 202);
   padding: 3rem;
 }
