@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background-color: #e18dd5;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 1rem;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 0;
+  padding-bottom: 0;
+  background-color: white;
+}
+
+.panel {
+  background-color: rgb(205, 165, 202);
+  border-radius: 0;
+  padding: 3rem;
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.cta {
+  display: inline-block;
+  background-color: #b663a9;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.cta:hover {
+  background-color: aliceblue;
+  color: #333;
+}
+
+.hero img {
+  justify-self: end;
+}
+
+.stats .stats_text p {
+  max-width: 65ch;
+}
+
+.stats ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 800px) {
+  .stats ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.stats ul li {
+  background: #e18dd5;
+  border: 2px solid #790e44;
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 1.05rem;
+}
+
+footer {
+  background-color: #e18dd5;
+  color: white;
+  padding: 2rem;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.hero img {
+  width: 85%;
+  justify-self: end;
+  margin-top: 2.6rem;
+}
+
+.stats {
+  margin-top: 4rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.computer-img {
+  width: 80%;
+  max-width: 520px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+main {
+  background: #f6f6f6;
+  padding: 0;
+}
+
+.panel {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(205, 165, 202);
+  padding: 3rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
