@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+  margin: 0;
+}
+
+/* Header og menu */
+header {
+  background-color: #e18dd5;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 1rem;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main wrapper (giver luft rundt om "panelet") */
+main {
+  padding: 0;
+  padding-bottom: 0;
+  background-color: white;
+}
+
+/* Selve "wireframe-kassen" */
+.panel {
+  background-color: rgb(205, 165, 202);
+  border-radius: 0;
+  padding: 3rem;
+  min-height: 100%;
+}
+
+/* Typografi */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+/* Billeder */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Call to action */
+.cta {
+  display: inline-block;
+  background-color: #b663a9;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.cta:hover {
+  background-color: aliceblue;
+  color: #333;
+}
+
+/* HERO: billedet til højre */
+.hero img {
+  justify-self: end;
+}
+
+/* STATS: mere læsbar tekst */
+.stats .stats_text p {
+  max-width: 65ch;
+}
+
+/* Stats-bokse (wireframe-look) */
+.stats ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 800px) {
+  .stats ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.stats ul li {
+  background: #e18dd5;
+  border: 2px solid #790e44;
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 1.05rem;
+}
+
+/* Footer */
+footer {
+  background-color: #e18dd5;
+  color: white;
+  padding: 2rem;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.hero img {
+  width: 85%;
+  justify-self: end;
+  margin-top: 2.6rem;
+}
+
+.stats {
+  margin-top: 4rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.computer-img {
+  width: 80%;
+  max-width: 520px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* lys "kant" udenom indholdet */
+main {
+  background: #f6f6f6; /* hvid/lys kant */
+  padding: 0; /* luft over/under */
+}
+
+/* gør panelet til en centreret kasse (ikke fuld bredde) */
+.panel {
+  max-width: 1200px; /* samme som container eller lidt større */
+  margin: 0 auto; /* centrer */
+  background-color: rgb(205, 165, 202);
+  padding: 3rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
